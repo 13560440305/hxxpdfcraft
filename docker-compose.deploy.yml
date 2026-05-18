@@ -1,5 +1,6 @@
 # hxxpdfcraft 生产部署：从 GitHub 构建，hxxnet 网络，暴露 3000 端口
 # 用法:
+#   docker network create hxxnet    # 首次部署前执行一次（已存在可跳过）
 #   docker compose -f docker-compose.deploy.yml up -d --build
 #   docker compose -f docker-compose.deploy.yml down
 
@@ -22,6 +23,7 @@ services:
       - hxxnet
 
 networks:
+  # 使用已存在的 hxxnet，避免与手动/旧版 compose 创建的网络标签冲突
   hxxnet:
     name: hxxnet
-    driver: bridge
+    external: true

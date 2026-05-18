@@ -94,7 +94,22 @@ git push origin main
 
 默认构建分支为 `main`，可在 `docker-compose.deploy.yml` 中修改 `GIT_BRANCH`。
 
-### 3. 构建并启动
+### 3. 创建 Docker 网络（首次部署）
+
+`hxxnet` 需事先存在（Compose 使用外部网络，避免与旧网络标签冲突）：
+
+```bash
+docker network create hxxnet 2>/dev/null || true
+```
+
+若曾用旧版 compose 创建过 `hxxnet` 并报标签错误，可先删除再重建（确保没有容器仍在使用该网络）：
+
+```bash
+docker network rm hxxnet
+docker network create hxxnet
+```
+
+### 4. 构建并启动
 
 ```bash
 docker compose -f docker-compose.deploy.yml up -d --build
@@ -102,7 +117,7 @@ docker compose -f docker-compose.deploy.yml up -d --build
 
 首次构建会：克隆仓库 → 安装依赖 → Next.js 静态导出 → 打包进 Nginx 镜像，耗时可能 **10～30 分钟**，视机器性能而定。
 
-### 4. 验证容器
+### 5. 验证容器
 
 ```bash
 # 查看状态
@@ -117,7 +132,7 @@ curl -I http://127.0.0.1:3000/
 
 浏览器访问：`http://服务器IP:3000`（若防火墙已放行）。
 
-### 5. 防火墙（如启用 ufw）
+### 6. 防火墙（如启用 ufw）
 
 ```bash
 sudo ufw allow 3000/tcp
@@ -185,7 +200,7 @@ build:
 
 ### Docker 网络 `hxxnet`
 
-- Compose 会自动创建名为 **`hxxnet`** 的 bridge 网络。
+- 部署前执行：`docker network create hxxnet`（Compose 以 **external** 方式接入，不接管已有网络）。
 - 容器服务名 **`hxxpdf`**，同网络内其它容器可通过 `http://hxxpdf:3000` 访问。
 - 若宿主机 Nginx 也跑在 Docker 中，可将其接入同一网络：
 
@@ -268,6 +283,40 @@ location / {
 
 ## 七、故障排查
 
+### `network hxxnet was found but has incorrect label`
+
+现象：
+
+```text
+network hxxnet was found but has incorrect label com.docker.compose.network ...
+```
+
+原因：`hxxnet` 曾由 `docker network create` 或其它 compose 项目创建，与当前 compose 管理的网络标签不一致，导致 **`up` 失败、容器未启动**（`ps` 为空）。
+
+处理：
+
+```bash
+# 1. 查看是否有容器占用该网络
+docker network inspect hxxnet
+
+# 2. 无其它服务使用时，删除并重建
+docker network rm hxxnet
+docker network create hxxnet
+
+# 3. 重新启动
+docker compose -f docker-compose.deploy.yml up -d --build
+docker compose -f docker-compose.deploy.yml ps
+```
+
+### `ps` 为空 / 只有 Built 没有 Running
+
+多半是 `up` 因网络等问题未成功，不要只看 `Built`。请执行：
+
+```bash
+docker compose -f docker-compose.deploy.yml up -d --build
+docker ps -a | grep hxxpdf
+```
+
 ### 构建失败：内存不足
 
 现象：`npm run build` 进程被 kill、退出码 137。
@@ -325,6 +374,7 @@ docker exec hxxpdf cat /etc/nginx/conf.d/default.conf
 
 ```bash
 # 首次 / 更新部署
+docker network create hxxnet 2>/dev/null || true
 docker compose -f docker-compose.deploy.yml up -d --build
 
 # 查看日志
