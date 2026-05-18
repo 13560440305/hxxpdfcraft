@@ -1,0 +1,27 @@
+# hxxpdfcraft 生产部署：从 GitHub 构建，hxxnet 网络，暴露 3000 端口
+# 用法:
+#   docker compose -f docker-compose.deploy.yml up -d --build
+#   docker compose -f docker-compose.deploy.yml down
+
+services:
+  hxxpdf:
+    build:
+      context: .
+      dockerfile: Dockerfile.deploy
+      args:
+        GIT_REPO: https://github.com/13560440305/hxxpdfcraft.git
+        GIT_BRANCH: main
+        # 子路径部署时取消注释，例如 BASE_PATH: /pdfcraft
+        # BASE_PATH: ""
+    image: hxxpdf:latest
+    container_name: hxxpdf
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    networks:
+      - hxxnet
+
+networks:
+  hxxnet:
+    name: hxxnet
+    driver: bridge
