@@ -27,7 +27,7 @@
 
 This project is built with modern web technologies to provide a slick, app-like experience directly in the browser.
 
-## �?Key Features
+## Key Features
 
 - **🔒 100% Private**: All processing happens client-side. No file uploads to external servers.
 - **🚀 Fast & Responsive**: Powered by Next.js and WebAssembly for near-native performance.
