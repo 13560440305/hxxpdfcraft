@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Công cụ PDF Chuyên nghiệp",
+      "title": "hxxpdf - Công cụ PDF Chuyên nghiệp",
       "description": "Miễn phí, Riêng tư & Hoàn toàn trên Trình duyệt. Hợp nhất, chỉnh sửa PDF trực tuyến mà không cần tải lên máy chủ."
     },
     "tools": {
@@ -14,7 +14,7 @@
     },
     "faq": {
       "title": "Câu hỏi Thường gặp",
-      "description": "Tìm câu trả lời cho các câu hỏi phổ biến về PDFCraft. Hướng dẫn sử dụng hiệu quả các công cụ PDF của chúng tôi."
+      "description": "Tìm câu trả lời cho các câu hỏi phổ biến về hxxpdf. Hướng dẫn sử dụng hiệu quả các công cụ PDF của chúng tôi."
     },
     "privacy": {
       "title": "Chính sách Bảo mật",
@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "hxxpdf",
     "tagline": "Công cụ PDF Chuyên nghiệp - Miễn phí & Riêng tư",
     "navigation": {
       "home": "Trang chủ",
@@ -194,16 +194,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "PDFCraft là gì?",
-          "answer": "PDFCraft là bộ công cụ PDF miễn phí, tập trung vào quyền riêng tư, chạy hoàn toàn trong trình duyệt của bạn. Nó cung cấp hơn 80 công cụ chuyên nghiệp để chỉnh sửa, chuyển đổi, hợp nhất, tách và bảo mật tệp PDF mà không cần tải lên bất kỳ máy chủ nào."
+          "question": "hxxpdf là gì?",
+          "answer": "hxxpdf là bộ công cụ PDF miễn phí, tập trung vào quyền riêng tư, chạy hoàn toàn trong trình duyệt của bạn. Nó cung cấp hơn 80 công cụ chuyên nghiệp để chỉnh sửa, chuyển đổi, hợp nhất, tách và bảo mật tệp PDF mà không cần tải lên bất kỳ máy chủ nào."
         },
         "isFree": {
-          "question": "PDFCraft có thực sự miễn phí không?",
-          "answer": "Có, PDFCraft hoàn toàn miễn phí. Không có chi phí ẩn, không có gói cao cấp và không cần đăng ký. Tất cả tính năng đều mở cho mọi người."
+          "question": "hxxpdf có thực sự miễn phí không?",
+          "answer": "Có, hxxpdf hoàn toàn miễn phí. Không có chi phí ẩn, không có gói cao cấp và không cần đăng ký. Tất cả tính năng đều mở cho mọi người."
         },
         "account": {
           "question": "Tôi có cần tạo tài khoản không?",
-          "answer": "Không, bạn không cần tạo tài khoản hay đăng ký để sử dụng PDFCraft. Chỉ cần truy cập website và bắt đầu sử dụng công cụ ngay lập tức."
+          "answer": "Không, bạn không cần tạo tài khoản hay đăng ký để sử dụng hxxpdf. Chỉ cần truy cập website và bắt đầu sử dụng công cụ ngay lập tức."
         }
       },
       "privacy": {
@@ -212,8 +212,8 @@
           "answer": "Không, tệp của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Toàn bộ xử lý PDF diễn ra cục bộ trong trình duyệt bằng JavaScript và WebAssembly. Tệp không bao giờ rời khỏi thiết bị của bạn."
         },
         "safe": {
-          "question": "Có an toàn khi sử dụng PDFCraft với tài liệu nhạy cảm không?",
-          "answer": "Có, PDFCraft được thiết kế với trọng tâm là quyền riêng tư. Vì mọi xử lý diễn ra cục bộ trong trình duyệt, tài liệu nhạy cảm của bạn vẫn ở trên thiết bị và không bao giờ được truyền qua internet."
+          "question": "Có an toàn khi sử dụng hxxpdf với tài liệu nhạy cảm không?",
+          "answer": "Có, hxxpdf được thiết kế với trọng tâm là quyền riêng tư. Vì mọi xử lý diễn ra cục bộ trong trình duyệt, tài liệu nhạy cảm của bạn vẫn ở trên thiết bị và không bao giờ được truyền qua internet."
         },
         "storage": {
           "question": "Tệp của tôi sẽ ra sao sau khi xử lý?",
@@ -223,7 +223,7 @@
       "features": {
         "operations": {
           "question": "Tôi có thể thực hiện những thao tác PDF nào?",
-          "answer": "PDFCraft cung cấp hơn 67 công cụ bao gồm: hợp nhất, tách, nén, chuyển đổi (sang/từ hình ảnh, văn bản, JSON), chỉnh sửa, chú thích, ký, thêm dấu mờ, mã hóa/giải mã, OCR và nhiều hơn nữa."
+          "answer": "hxxpdf cung cấp hơn 67 công cụ bao gồm: hợp nhất, tách, nén, chuyển đổi (sang/từ hình ảnh, văn bản, JSON), chỉnh sửa, chú thích, ký, thêm dấu mờ, mã hóa/giải mã, OCR và nhiều hơn nữa."
         },
         "merge": {
           "question": "Tôi có thể hợp nhất nhiều tệp PDF không?",
@@ -231,17 +231,17 @@
         },
         "images": {
           "question": "Tôi có thể chuyển hình ảnh thành PDF không?",
-          "answer": "Có, PDFCraft hỗ trợ chuyển đổi nhiều định dạng hình ảnh (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) thành PDF. Bạn có thể chuyển đổi một hoặc nhiều hình ảnh cùng lúc."
+          "answer": "Có, hxxpdf hỗ trợ chuyển đổi nhiều định dạng hình ảnh (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) thành PDF. Bạn có thể chuyển đổi một hoặc nhiều hình ảnh cùng lúc."
         },
         "edit": {
           "question": "Tôi có thể chỉnh sửa văn bản trong PDF không?",
-          "answer": "PDFCraft cung cấp các công cụ chú thích và chỉnh sửa bao gồm tô sáng, thêm văn bản, hình dạng, hình ảnh và chữ ký. Đối với chỉnh sửa văn bản đầy đủ, công cụ Trình chỉnh sửa PDF cung cấp khả năng chú thích toàn diện."
+          "answer": "hxxpdf cung cấp các công cụ chú thích và chỉnh sửa bao gồm tô sáng, thêm văn bản, hình dạng, hình ảnh và chữ ký. Đối với chỉnh sửa văn bản đầy đủ, công cụ Trình chỉnh sửa PDF cung cấp khả năng chú thích toàn diện."
         }
       },
       "technical": {
         "browsers": {
           "question": "Những trình duyệt nào được hỗ trợ?",
-          "answer": "PDFCraft hoạt động trên tất cả trình duyệt hiện đại bao gồm Chrome, Firefox, Safari và Edge. Chúng tôi khuyến nghị sử dụng phiên bản mới nhất của trình duyệt để có trải nghiệm tốt nhất."
+          "answer": "hxxpdf hoạt động trên tất cả trình duyệt hiện đại bao gồm Chrome, Firefox, Safari và Edge. Chúng tôi khuyến nghị sử dụng phiên bản mới nhất của trình duyệt để có trải nghiệm tốt nhất."
         },
         "sizeLimit": {
           "question": "Có giới hạn kích thước tệp không?",
@@ -252,14 +252,14 @@
           "answer": "Vì toàn bộ xử lý diễn ra trong trình duyệt, hiệu suất phụ thuộc vào khả năng của thiết bị. Tệp lớn cần nhiều bộ nhớ và sức mạnh xử lý hơn. Để có kết quả tốt nhất, hãy đóng các tab và ứng dụng trình duyệt khác."
         },
         "offline": {
-          "question": "PDFCraft có hoạt động ngoại tuyến không?",
-          "answer": "Hiện tại, PDFCraft cần kết nối internet để tải ứng dụng. Tuy nhiên, sau khi tải xong, việc xử lý PDF diễn ra cục bộ và không cần kết nối."
+          "question": "hxxpdf có hoạt động ngoại tuyến không?",
+          "answer": "Hiện tại, hxxpdf cần kết nối internet để tải ứng dụng. Tuy nhiên, sau khi tải xong, việc xử lý PDF diễn ra cục bộ và không cần kết nối."
         }
       },
       "languages": {
         "supported": {
           "question": "Những ngôn ngữ nào được hỗ trợ?",
-          "answer": "PDFCraft hiện hỗ trợ 9 ngôn ngữ: Tiếng Anh, Nhật, Hàn, Tây Ban Nha, Pháp, Đức, Trung, Bồ Đào Nha và Ả Rập (hỗ trợ RTL)."
+          "answer": "hxxpdf hiện hỗ trợ 9 ngôn ngữ: Tiếng Anh, Nhật, Hàn, Tây Ban Nha, Pháp, Đức, Trung, Bồ Đào Nha và Ả Rập (hỗ trợ RTL)."
         },
         "change": {
           "question": "Làm thế nào để thay đổi ngôn ngữ?",
@@ -290,7 +290,7 @@
       },
       "fast": {
         "title": "Nhanh & Hiệu quả",
-        "description": "Được hỗ trợ bởi công nghệ web hiện đại, PDFCraft mang đến xử lý PDF cực nhanh mà không cần tải lên hoặc tải xuống."
+        "description": "Được hỗ trợ bởi công nghệ web hiện đại, hxxpdf mang đến xử lý PDF cực nhanh mà không cần tải lên hoặc tải xuống."
       },
       "accessible": {
         "title": "Truy cập Mọi nơi",
@@ -298,7 +298,7 @@
       },
       "free": {
         "title": "Miễn phí Vĩnh viễn",
-        "description": "PDFCraft hoàn toàn miễn phí, không chi phí ẩn, không cần đăng ký, không giới hạn sử dụng."
+        "description": "hxxpdf hoàn toàn miễn phí, không chi phí ẩn, không cần đăng ký, không giới hạn sử dụng."
       },
       "openSource": {
         "title": "Mã nguồn Mở",
@@ -336,7 +336,7 @@
       "email": {
         "title": "Email",
         "description": "Gửi email cho chúng tôi và chúng tôi sẽ trả lời trong vòng 24-48 giờ.",
-        "action": "contact@pdfcraft.app"
+        "action": "fushou@hxxbot.com"
       },
       "github": {
         "title": "GitHub",
@@ -416,9 +416,9 @@
   },
   "home": {
     "hero": {
-      "title": "Công cụ PDF Chuyên nghiệp",
-      "highlight": "Công cụ Chuyên nghiệp",
-      "subtitle": "Xử lý PDF miễn phí, riêng tư và mạnh mẽ ngay trong trình duyệt",
+      "title": "XingYou PDF",
+      "highlight": "Chuyên gia xử lý PDF chuyên nghiệp",
+      "subtitle": "Công cụ xử lý PDF an toàn, riêng tư, miễn phí và mạnh mẽ. Mọi xử lý đều diễn ra trong trình duyệt — tệp của bạn không bao giờ rời khỏi thiết bị.",
       "cta": "Bắt đầu Ngay"
     },
     "features": {

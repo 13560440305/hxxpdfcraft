@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - プロフェッショナルPDFツール",
+      "title": "hxxpdf - プロフェッショナルPDFツール",
       "description": "無料、プライベート、ブラウザベース。サーバーにアップロードせずにPDFファイルをオンラインで結合・編集。"
     },
     "tools": {
@@ -14,7 +14,7 @@
     },
     "faq": {
       "title": "よくある質問",
-      "description": "PDFCraftに関するよくある質問の回答。PDFツールを効果的に使用する方法をご覧ください。"
+      "description": "hxxpdfに関するよくある質問の回答。PDFツールを効果的に使用する方法をご覧ください。"
     },
     "privacy": {
       "title": "プライバシーポリシー",
@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "hxxpdf",
     "tagline": "プロフェッショナルPDFツール - 無料＆プライベート",
     "navigation": {
       "home": "ホーム",
@@ -156,16 +156,16 @@
       "sections": {
         "general": {
           "whatIs": {
-            "question": "What is PDFCraft?",
-            "answer": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. It offers 67+ professional tools for editing, converting, merging, splitting, and securing PDF files without uploading them to any server."
+            "question": "What is hxxpdf?",
+            "answer": "hxxpdf is a free, privacy-focused PDF toolkit that runs entirely in your browser. It offers 67+ professional tools for editing, converting, merging, splitting, and securing PDF files without uploading them to any server."
           },
           "isFree": {
-            "question": "Is PDFCraft really free?",
-            "answer": "Yes, PDFCraft is completely free to use. There are no hidden costs, no premium tiers, and no registration required. All features are available to everyone."
+            "question": "Is hxxpdf really free?",
+            "answer": "Yes, hxxpdf is completely free to use. There are no hidden costs, no premium tiers, and no registration required. All features are available to everyone."
           },
           "account": {
             "question": "Do I need to create an account?",
-            "answer": "No, you don't need to create an account or register to use PDFCraft. Simply visit the website and start using any tool immediately."
+            "answer": "No, you don't need to create an account or register to use hxxpdf. Simply visit the website and start using any tool immediately."
           }
         },
         "privacy": {
@@ -174,8 +174,8 @@
             "answer": "No, your files are never uploaded to any server. All PDF processing happens locally in your browser using JavaScript and WebAssembly. Your files never leave your device."
           },
           "safe": {
-            "question": "Is it safe to use PDFCraft with sensitive documents?",
-            "answer": "Yes, PDFCraft is designed with privacy in mind. Since all processing happens locally in your browser, your sensitive documents remain on your device and are never transmitted over the internet."
+            "question": "Is it safe to use hxxpdf with sensitive documents?",
+            "answer": "Yes, hxxpdf is designed with privacy in mind. Since all processing happens locally in your browser, your sensitive documents remain on your device and are never transmitted over the internet."
           },
           "storage": {
             "question": "What happens to my files after processing?",
@@ -185,7 +185,7 @@
         "features": {
           "operations": {
             "question": "What PDF operations can I perform?",
-            "answer": "PDFCraft offers 67+ tools including: merge, split, compress, convert (to/from images, text, JSON), edit, annotate, sign, add watermarks, encrypt/decrypt, OCR, and many more."
+            "answer": "hxxpdf offers 67+ tools including: merge, split, compress, convert (to/from images, text, JSON), edit, annotate, sign, add watermarks, encrypt/decrypt, OCR, and many more."
           },
           "merge": {
             "question": "Can I merge multiple PDF files?",
@@ -193,17 +193,17 @@
           },
           "images": {
             "question": "Can I convert images to PDF?",
-            "answer": "Yes, PDFCraft supports converting various image formats (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) to PDF. You can convert single or multiple images at once."
+            "answer": "Yes, hxxpdf supports converting various image formats (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) to PDF. You can convert single or multiple images at once."
           },
           "edit": {
             "question": "Can I edit text in a PDF?",
-            "answer": "PDFCraft provides annotation and editing tools including highlighting, adding text, shapes, images, and signatures. For full text editing, the PDF Editor tool offers comprehensive annotation capabilities."
+            "answer": "hxxpdf provides annotation and editing tools including highlighting, adding text, shapes, images, and signatures. For full text editing, the PDF Editor tool offers comprehensive annotation capabilities."
           }
         },
         "technical": {
           "browsers": {
             "question": "What browsers are supported?",
-            "answer": "PDFCraft works on all modern browsers including Chrome, Firefox, Safari, and Edge. We recommend using the latest version of your browser for the best experience."
+            "answer": "hxxpdf works on all modern browsers including Chrome, Firefox, Safari, and Edge. We recommend using the latest version of your browser for the best experience."
           },
           "sizeLimit": {
             "question": "Is there a file size limit?",
@@ -214,14 +214,14 @@
             "answer": "Since all processing happens in your browser, performance depends on your device's capabilities. Large files require more memory and processing power. For best results, close other browser tabs and applications."
           },
           "offline": {
-            "question": "Does PDFCraft work offline?",
-            "answer": "Currently, PDFCraft requires an internet connection to load the application. However, once loaded, the PDF processing itself happens locally and doesn't require a connection."
+            "question": "Does hxxpdf work offline?",
+            "answer": "Currently, hxxpdf requires an internet connection to load the application. However, once loaded, the PDF processing itself happens locally and doesn't require a connection."
           }
         },
         "languages": {
           "supported": {
             "question": "What languages are supported?",
-            "answer": "PDFCraft is available in 9 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, and Arabic (with RTL support)."
+            "answer": "hxxpdf is available in 9 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, and Arabic (with RTL support)."
           },
           "change": {
             "question": "How do I change the language?",
@@ -252,7 +252,7 @@
         },
         "fast": {
           "title": "Fast & Efficient",
-          "description": "Powered by modern web technologies, PDFCraft delivers lightning-fast PDF processing without the need for uploads or downloads."
+          "description": "Powered by modern web technologies, hxxpdf delivers lightning-fast PDF processing without the need for uploads or downloads."
         },
         "accessible": {
           "title": "Accessible Everywhere",
@@ -260,7 +260,7 @@
         },
         "free": {
           "title": "Free Forever",
-          "description": "PDFCraft is completely free to use with no hidden costs, no registration required, and no limits on usage."
+          "description": "hxxpdf is completely free to use with no hidden costs, no registration required, and no limits on usage."
         },
         "openSource": {
           "title": "Open Source",
@@ -298,7 +298,7 @@
         "email": {
           "title": "メール",
           "description": "メールをお送りください。24〜48時間以内に返信いたします。",
-          "action": "contact@pdfcraft.app"
+          "action": "fushou@hxxbot.com"
         },
         "github": {
           "title": "GitHub",
@@ -403,9 +403,9 @@
   },
   "home": {
     "hero": {
-      "title": "プロフェッショナルPDFツール",
-      "highlight": "プロフェッショナルツール",
-      "subtitle": "ブラウザで無料で使える、プライバシー重視の強力なPDF処理ツール",
+      "title": "星游PDF",
+      "highlight": "プロフェッショナルなPDF処理のエキスパート",
+      "subtitle": "安全・プライバシー保護・無料・高機能なPDF処理ツール。すべての処理はブラウザ内で完結し、ファイルが端末から出ることはありません。",
       "cta": "始める"
     },
     "features": {
@@ -2208,16 +2208,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "PDFCraftとは何ですか？",
-          "answer": "PDFCraftは、ブラウザ上で完全に動作する、プライバシーに配慮した無料のPDFツールキットです。PDFの編集、変換、結合、分割、暗号化など、{count}種類以上のプロフェッショナルなツールを、サーバーにファイルをアップロードすることなく提供します。"
+          "question": "hxxpdfとは何ですか？",
+          "answer": "hxxpdfは、ブラウザ上で完全に動作する、プライバシーに配慮した無料のPDFツールキットです。PDFの編集、変換、結合、分割、暗号化など、{count}種類以上のプロフェッショナルなツールを、サーバーにファイルをアップロードすることなく提供します。"
         },
         "isFree": {
-          "question": "PDFCraftは本当に無料ですか？",
-          "answer": "はい、PDFCraftは完全に無料です。隠れた費用やプレミアムサブスクリプション、登録は一切必要ありません。すべての機能をどなたでもご利用いただけます。"
+          "question": "hxxpdfは本当に無料ですか？",
+          "answer": "はい、hxxpdfは完全に無料です。隠れた費用やプレミアムサブスクリプション、登録は一切必要ありません。すべての機能をどなたでもご利用いただけます。"
         },
         "account": {
           "question": "アカウントを作成する必要はありますか？",
-          "answer": "いいえ、PDFCraftを利用するためにアカウント作成や登録は不要です。ウェブサイトにアクセスするだけで、すぐにツールを使い始めることができます。"
+          "answer": "いいえ、hxxpdfを利用するためにアカウント作成や登録は不要です。ウェブサイトにアクセスするだけで、すぐにツールを使い始めることができます。"
         }
       },
       "privacy": {
@@ -2226,8 +2226,8 @@
           "answer": "いいえ、ファイルがサーバーにアップロードされることはありません。すべてのPDF処理は、JavaScriptとWebAssemblyを使用してブラウザ内でローカルに実行されます。ファイルがデバイスから送信されることはありません。"
         },
         "safe": {
-          "question": "機密文書にPDFCraftを使用しても安全ですか？",
-          "answer": "はい、PDFCraftはプライバシーを最優先に設計されています。すべての処理がブラウザ内でローカルに行われるため、機密文書はデバイス内に留まり、インターネット経由で送信されることはありません。"
+          "question": "機密文書にhxxpdfを使用しても安全ですか？",
+          "answer": "はい、hxxpdfはプライバシーを最優先に設計されています。すべての処理がブラウザ内でローカルに行われるため、機密文書はデバイス内に留まり、インターネット経由で送信されることはありません。"
         },
         "storage": {
           "question": "処理後のファイルはどうなりますか？",
@@ -2237,7 +2237,7 @@
       "features": {
         "operations": {
           "question": "どのようなPDF操作が可能ですか？",
-          "answer": "PDFCraftは、結合、分割、圧縮、変換（画像、テキスト、JSONとの相互変換）、編集、注釈、署名、透かし追加、暗号化/復号、OCRなど、{count}種類以上のツールを提供しています。"
+          "answer": "hxxpdfは、結合、分割、圧縮、変換（画像、テキスト、JSONとの相互変換）、編集、注釈、署名、透かし追加、暗号化/復号、OCRなど、{count}種類以上のツールを提供しています。"
         },
         "merge": {
           "question": "複数のPDFファイルを結合できますか？",
@@ -2245,17 +2245,17 @@
         },
         "images": {
           "question": "画像をPDFに変換できますか？",
-          "answer": "はい、PDFCraftは様々な画像形式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）のPDF変換をサポートしています。1枚、または複数の画像を一度に変換できます。"
+          "answer": "はい、hxxpdfは様々な画像形式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）のPDF変換をサポートしています。1枚、または複数の画像を一度に変換できます。"
         },
         "edit": {
           "question": "PDFのテキストを編集できますか？",
-          "answer": "PDFCraftは、ハイライト、テキスト追加、図形、画像、署名などの注釈・編集ツールを提供しています。詳細なテキスト編集については、PDFエディターツールで包括的な注釈機能をご利用いただけます。"
+          "answer": "hxxpdfは、ハイライト、テキスト追加、図形、画像、署名などの注釈・編集ツールを提供しています。詳細なテキスト編集については、PDFエディターツールで包括的な注釈機能をご利用いただけます。"
         }
       },
       "technical": {
         "browsers": {
           "question": "どのブラウザをサポートしていますか？",
-          "answer": "PDFCraftは、Chrome、Firefox、Safari、Edgeなどの主要な最新ブラウザで動作します。最適な体験のために、ブラウザの最新バージョンを使用することをお勧めします。"
+          "answer": "hxxpdfは、Chrome、Firefox、Safari、Edgeなどの主要な最新ブラウザで動作します。最適な体験のために、ブラウザの最新バージョンを使用することをお勧めします。"
         },
         "sizeLimit": {
           "question": "ファイルサイズに制限はありますか？",
@@ -2266,14 +2266,14 @@
           "answer": "すべての処理がブラウザ内で行われるため、パフォーマンスはデバイスのスペックに依存します。大きなファイルはより多くのメモリと処理能力を必要とします。最良の結果を得るには、他のタブやアプリケーションを閉じてください。"
         },
         "offline": {
-          "question": "PDFCraftはオフラインで動作しますか？",
-          "answer": "現在、PDFCraftの初期読み込みにはインターネット接続が必要です。ただし、一度読み込まれると、PDF処理自体はローカルで行われ、接続は不要です。"
+          "question": "hxxpdfはオフラインで動作しますか？",
+          "answer": "現在、hxxpdfの初期読み込みにはインターネット接続が必要です。ただし、一度読み込まれると、PDF処理自体はローカルで行われ、接続は不要です。"
         }
       },
       "languages": {
         "supported": {
           "question": "どの言語をサポートしていますか？",
-          "answer": "PDFCraftは、英語、日本語、韓国語、スペイン語、フランス語、ドイツ語、中国語、ポルトガル語、アラビア語（右から左への記述をサポート）の9言語に対応しています。"
+          "answer": "hxxpdfは、英語、日本語、韓国語、スペイン語、フランス語、ドイツ語、中国語、ポルトガル語、アラビア語（右から左への記述をサポート）の9言語に対応しています。"
         },
         "change": {
           "question": "言語を変更するにはどうすればよいですか？",
@@ -2304,7 +2304,7 @@
       },
       "fast": {
         "title": "迅速かつ効率的",
-        "description": "最新のWebテクノロジーを活用し、PDFCraftはアップロードやダウンロードを必要とせずに、非常に高速なPDF処理を実現します。"
+        "description": "最新のWebテクノロジーを活用し、hxxpdfはアップロードやダウンロードを必要とせずに、非常に高速なPDF処理を実現します。"
       },
       "accessible": {
         "title": "どこでも利用可能",
@@ -2312,7 +2312,7 @@
       },
       "free": {
         "title": "永久無料",
-        "description": "PDFCraftは完全に無料で使用でき、隠れた費用や登録の必要はなく、使用制限もありません。"
+        "description": "hxxpdfは完全に無料で使用でき、隠れた費用や登録の必要はなく、使用制限もありません。"
       },
       "openSource": {
         "title": "オープンソース",
@@ -2350,7 +2350,7 @@
       "email": {
         "title": "メール",
         "description": "メールをお送りください。24〜48時間以内に返信いたします。",
-        "action": "contact@pdfcraft.app"
+        "action": "fushou@hxxbot.com"
       },
       "github": {
         "title": "GitHub",

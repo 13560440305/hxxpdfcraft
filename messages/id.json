@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Alat PDF Profesional",
+      "title": "hxxpdf - Alat PDF Profesional",
       "description": "Gratis, Pribadi & Berbasis Browser. Gabung, edit, dan ubah file PDF secara online tanpa mengunggah ke server."
     },
     "tools": {
@@ -14,7 +14,7 @@
     },
     "faq": {
       "title": "Pertanyaan yang Sering Diajukan",
-      "description": "Temukan jawaban untuk pertanyaan umum tentang PDFCraft. Pelajari cara menggunakan alat PDF kami secara efektif."
+      "description": "Temukan jawaban untuk pertanyaan umum tentang hxxpdf. Pelajari cara menggunakan alat PDF kami secara efektif."
     },
     "privacy": {
       "title": "Kebijakan Privasi",
@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "hxxpdf",
     "tagline": "Alat PDF Profesional - Gratis & Pribadi",
     "navigation": {
       "home": "Beranda",
@@ -200,16 +200,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "Apa itu PDFCraft?",
-          "answer": "PDFCraft adalah toolkit PDF gratis yang berfokus pada privasi yang berjalan sepenuhnya di browser Anda. Kami menawarkan 80+ alat profesional untuk mengedit, mengonversi, menggabung, memisah, dan mengamankan file PDF tanpa mengunggahnya ke server mana pun."
+          "question": "Apa itu hxxpdf?",
+          "answer": "hxxpdf adalah toolkit PDF gratis yang berfokus pada privasi yang berjalan sepenuhnya di browser Anda. Kami menawarkan 80+ alat profesional untuk mengedit, mengonversi, menggabung, memisah, dan mengamankan file PDF tanpa mengunggahnya ke server mana pun."
         },
         "isFree": {
-          "question": "Apakah PDFCraft benar-benar gratis?",
-          "answer": "Ya, PDFCraft sepenuhnya gratis untuk digunakan. Tidak ada biaya tersembunyi, tidak ada tingkat premium, dan tidak perlu registrasi. Semua fitur tersedia untuk semua orang."
+          "question": "Apakah hxxpdf benar-benar gratis?",
+          "answer": "Ya, hxxpdf sepenuhnya gratis untuk digunakan. Tidak ada biaya tersembunyi, tidak ada tingkat premium, dan tidak perlu registrasi. Semua fitur tersedia untuk semua orang."
         },
         "account": {
           "question": "Apakah saya perlu membuat akun?",
-          "answer": "Tidak, Anda tidak perlu membuat akun atau mendaftar untuk menggunakan PDFCraft. Cukup kunjungi situs web dan mulai gunakan alat apa pun segera."
+          "answer": "Tidak, Anda tidak perlu membuat akun atau mendaftar untuk menggunakan hxxpdf. Cukup kunjungi situs web dan mulai gunakan alat apa pun segera."
         }
       },
       "privacy": {
@@ -218,8 +218,8 @@
           "answer": "Tidak, file Anda tidak pernah diunggah ke server mana pun. Semua pemrosesan PDF terjadi secara lokal di browser Anda menggunakan JavaScript dan WebAssembly. File Anda tidak pernah meninggalkan perangkat Anda."
         },
         "safe": {
-          "question": "Apakah aman menggunakan PDFCraft untuk dokumen sensitif?",
-          "answer": "Ya, PDFCraft dirancang dengan mengutamakan privasi. Karena semua pemrosesan terjadi secara lokal di browser Anda, dokumen sensitif Anda tetap berada di perangkat Anda dan tidak pernah dikirimkan melalui internet."
+          "question": "Apakah aman menggunakan hxxpdf untuk dokumen sensitif?",
+          "answer": "Ya, hxxpdf dirancang dengan mengutamakan privasi. Karena semua pemrosesan terjadi secara lokal di browser Anda, dokumen sensitif Anda tetap berada di perangkat Anda dan tidak pernah dikirimkan melalui internet."
         },
         "storage": {
           "question": "Apa yang terjadi dengan file saya setelah diproses?",
@@ -229,7 +229,7 @@
       "features": {
         "operations": {
           "question": "Operasi PDF apa saja yang bisa saya lakukan?",
-          "answer": "PDFCraft menawarkan 67+ alat termasuk: gabung, pisah, kompres, konversi (ke/dari gambar, teks, JSON), edit, anotasi, tanda tangan, tambah watermark, enkripsi/dekripsi, OCR, dan banyak lagi."
+          "answer": "hxxpdf menawarkan 67+ alat termasuk: gabung, pisah, kompres, konversi (ke/dari gambar, teks, JSON), edit, anotasi, tanda tangan, tambah watermark, enkripsi/dekripsi, OCR, dan banyak lagi."
         },
         "merge": {
           "question": "Bisakah saya menggabungkan beberapa file PDF?",
@@ -237,17 +237,17 @@
         },
         "images": {
           "question": "Bisakah saya mengonversi gambar ke PDF?",
-          "answer": "Ya, PDFCraft mendukung konversi berbagai format gambar (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) ke PDF. Anda dapat mengonversi satu atau beberapa gambar sekaligus."
+          "answer": "Ya, hxxpdf mendukung konversi berbagai format gambar (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) ke PDF. Anda dapat mengonversi satu atau beberapa gambar sekaligus."
         },
         "edit": {
           "question": "Bisakah saya mengedit teks dalam PDF?",
-          "answer": "PDFCraft menyediakan alat anotasi dan pengeditan termasuk menyorot, menambah teks, bentuk, gambar, dan tanda tangan. Untuk pengeditan teks lengkap, alat Editor PDF menawarkan kemampuan anotasi yang komprehensif."
+          "answer": "hxxpdf menyediakan alat anotasi dan pengeditan termasuk menyorot, menambah teks, bentuk, gambar, dan tanda tangan. Untuk pengeditan teks lengkap, alat Editor PDF menawarkan kemampuan anotasi yang komprehensif."
         }
       },
       "technical": {
         "browsers": {
           "question": "Browser apa saja yang didukung?",
-          "answer": "PDFCraft berfungsi di semua browser modern termasuk Chrome, Firefox, Safari, dan Edge. Kami merekomendasikan penggunaan versi terbaru browser Anda untuk pengalaman terbaik."
+          "answer": "hxxpdf berfungsi di semua browser modern termasuk Chrome, Firefox, Safari, dan Edge. Kami merekomendasikan penggunaan versi terbaru browser Anda untuk pengalaman terbaik."
         },
         "sizeLimit": {
           "question": "Apakah ada batasan ukuran file?",
@@ -258,14 +258,14 @@
           "answer": "Karena semua pemrosesan terjadi di browser Anda, kinerja tergantung pada kemampuan perangkat Anda. File besar membutuhkan lebih banyak memori dan daya pemrosesan. Untuk hasil terbaik, tutup tab browser dan aplikasi lainnya."
         },
         "offline": {
-          "question": "Apakah PDFCraft berfungsi secara offline?",
-          "answer": "Saat ini, PDFCraft memerlukan koneksi internet untuk memuat aplikasi. Namun, setelah dimuat, pemrosesan PDF itu sendiri terjadi secara lokal dan tidak memerlukan koneksi."
+          "question": "Apakah hxxpdf berfungsi secara offline?",
+          "answer": "Saat ini, hxxpdf memerlukan koneksi internet untuk memuat aplikasi. Namun, setelah dimuat, pemrosesan PDF itu sendiri terjadi secara lokal dan tidak memerlukan koneksi."
         }
       },
       "languages": {
         "supported": {
           "question": "Bahasa apa saja yang didukung?",
-          "answer": "PDFCraft tersedia dalam 10 bahasa: Inggris, Jepang, Korea, Spanyol, Prancis, Jerman, Mandarin, Portugis, Italia, dan Bahasa Indonesia."
+          "answer": "hxxpdf tersedia dalam 10 bahasa: Inggris, Jepang, Korea, Spanyol, Prancis, Jerman, Mandarin, Portugis, Italia, dan Bahasa Indonesia."
         },
         "change": {
           "question": "Bagaimana cara mengubah bahasa?",
@@ -296,7 +296,7 @@
       },
       "fast": {
         "title": "Cepat & Efisien",
-        "description": "Didukung oleh teknologi web modern, PDFCraft memberikan pemrosesan PDF yang sangat cepat tanpa perlu unggah atau unduh."
+        "description": "Didukung oleh teknologi web modern, hxxpdf memberikan pemrosesan PDF yang sangat cepat tanpa perlu unggah atau unduh."
       },
       "accessible": {
         "title": "Dapat Diakses di Mana Saja",
@@ -304,7 +304,7 @@
       },
       "free": {
         "title": "Gratis Selamanya",
-        "description": "PDFCraft sepenuhnya gratis untuk digunakan tanpa biaya tersembunyi, tidak perlu registrasi, dan tanpa batasan penggunaan."
+        "description": "hxxpdf sepenuhnya gratis untuk digunakan tanpa biaya tersembunyi, tidak perlu registrasi, dan tanpa batasan penggunaan."
       },
       "openSource": {
         "title": "Open Source",
@@ -342,7 +342,7 @@
       "email": {
         "title": "Email",
         "description": "Kirimkan email kepada kami dan kami akan membalas dalam 24-48 jam.",
-        "action": "contact@pdfcraft.app"
+        "action": "fushou@hxxbot.com"
       },
       "github": {
         "title": "GitHub",
@@ -426,9 +426,9 @@
   },
   "home": {
     "hero": {
-      "title": "Alat PDF Profesional",
-      "highlight": "Alat Profesional",
-      "subtitle": "Pemrosesan PDF gratis, pribadi, dan kuat di browser Anda",
+      "title": "XingYou PDF",
+      "highlight": "Ahli Pemrosesan PDF Profesional",
+      "subtitle": "Alat pemrosesan PDF yang aman, pribadi, gratis, dan andal. Semua pemrosesan dilakukan di browser — file Anda tidak pernah meninggalkan perangkat.",
       "cta": "Mulai Sekarang"
     },
     "features": {

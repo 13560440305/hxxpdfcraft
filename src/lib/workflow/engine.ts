@@ -139,12 +139,8 @@ export function validateWorkflow(
     const errors: WorkflowValidation['errors'] = [];
     const warnings: WorkflowValidation['warnings'] = [];
 
-    // Check for empty workflow
+    // Empty canvas is the default state — not a validation error (UI shows onboarding instead)
     if (nodes.length === 0) {
-        errors.push({
-            message: 'Workflow is empty. Add at least one tool node.',
-            type: 'missing-input',
-        });
         return { isValid: false, errors, warnings };
     }
 

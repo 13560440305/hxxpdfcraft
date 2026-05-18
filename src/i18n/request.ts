@@ -36,8 +36,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
   return {
     locale,
     messages,
-    // Configure time zone and formats
     timeZone: 'UTC',
-    now: new Date(),
   };
 });

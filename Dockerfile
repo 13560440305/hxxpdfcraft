@@ -37,7 +37,7 @@ RUN --mount=type=cache,target=/root/.npm \
 FROM nginx:1.25-alpine AS production
 
 # Add labels for GitHub Container Registry
-LABEL org.opencontainers.image.source="https://github.com/PDFCraftTool/pdfcraft"
+LABEL org.opencontainers.image.source="https://github.com/13560440305/hxxpdfcraft"
 LABEL org.opencontainers.image.description="PDFCraft - Professional PDF Tools, Free, Private & Browser-Based"
 LABEL org.opencontainers.image.licenses="AGPL-3.0"
 LABEL org.opencontainers.image.title="PDFCraft"

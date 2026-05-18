@@ -133,7 +133,7 @@ export function WorkflowControls({
                 </div>
             );
         }
-        if (!validation.isValid) {
+        if (validation.errors.length > 0) {
             return (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-yellow-100 text-yellow-700 rounded-full">
                     <AlertCircle className="w-4 h-4" />

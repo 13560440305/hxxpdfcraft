@@ -12,7 +12,7 @@ import {
 vi.mock('next-intl', () => ({
   useTranslations: () => (key: string) => {
     const translations: Record<string, string> = {
-      'brand': 'PDFCraft',
+      'brand': 'hxxpdf',
       'tagline': 'Professional PDF Tools - Free & Private',
       'navigation.home': 'Home',
       'navigation.tools': 'Tools',
@@ -72,7 +72,7 @@ describe('Layout Property Tests', () => {
             // Find the brand name in the header
             const brandElement = screen.getByTestId('brand-name');
             expect(brandElement).toBeInTheDocument();
-            expect(brandElement.textContent).toBe('PDFCraft');
+            expect(brandElement.textContent).toBe('hxxpdf');
             
             unmount();
             return true;
@@ -92,7 +92,7 @@ describe('Layout Property Tests', () => {
             // Find the brand name in the footer
             const brandElement = screen.getByTestId('footer-brand-name');
             expect(brandElement).toBeInTheDocument();
-            expect(brandElement.textContent).toBe('PDFCraft');
+            expect(brandElement.textContent).toBe('hxxpdf');
             
             unmount();
             return true;
@@ -121,7 +121,7 @@ describe('Layout Property Tests', () => {
             
             // Brand should be consistent
             expect(headerBrandText).toBe(footerBrandText);
-            expect(headerBrandText).toBe('PDFCraft');
+            expect(headerBrandText).toBe('hxxpdf');
             
             return true;
           }

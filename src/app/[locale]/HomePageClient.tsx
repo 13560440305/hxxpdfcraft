@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { ArrowRight, Zap, Wrench, Lock, Sparkles, Edit, FileImage, FolderOpen, Settings, ShieldCheck, Star } from 'lucide-react';
+import { ArrowRight, Lock, Sparkles, Edit, FileImage, FolderOpen, Settings, ShieldCheck, Star } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { ToolGrid } from '@/components/tools/ToolGrid';
@@ -29,28 +29,6 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
   const t = useTranslations();
   const allTools = getAllTools();
   const popularTools = getPopularTools();
-
-  // Feature highlights (same as before)
-  const features = [
-    {
-      icon: ShieldCheck,
-      titleKey: 'home.features.privacy.title',
-      descriptionKey: 'home.features.privacy.description',
-      color: 'text-green-500',
-    },
-    {
-      icon: Zap,
-      titleKey: 'home.features.free.title',
-      descriptionKey: 'home.features.free.description',
-      color: 'text-yellow-500',
-    },
-    {
-      icon: Wrench,
-      titleKey: 'home.features.powerful.title',
-      descriptionKey: 'home.features.powerful.description',
-      color: 'text-blue-500',
-    },
-  ];
 
   // Category icons mapping
   const categoryIcons: Record<ToolCategory, typeof Edit> = {
@@ -88,14 +66,14 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
       <main id="main-content" className="flex-1 relative" tabIndex={-1}>
         {/* Hero Section */}
         <section
-          className="relative overflow-hidden pt-16 pb-20 lg:pt-24 lg:pb-28"
+          className="relative overflow-hidden pt-12 pb-10 lg:pt-16 lg:pb-12"
           aria-labelledby="hero-title"
         >
           {/* Animated Background Blobs */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-[hsl(var(--color-primary)/0.2)] rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob" />
             <div className="absolute top-0 right-1/4 w-96 h-96 bg-[hsl(var(--color-accent)/0.2)] rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000" />
-            <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-[hsl(var(--color-secondary)/0.3)] rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000" />
+            <div className="absolute -bottom-16 left-1/2 w-72 h-72 bg-[hsl(var(--color-secondary)/0.3)] rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000" />
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -136,32 +114,8 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="py-12 relative z-20" aria-label="Features">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {features.map((feature, index) => {
-                const Icon = feature.icon;
-                return (
-                  <Card key={index} className="p-6 text-center glass-card border-0 hover:-translate-y-1 transition-transform duration-300" hover={false}>
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[hsl(var(--color-primary)/0.1)] mb-4 text-[hsl(var(--color-primary))]">
-                      <Icon className={`h-6 w-6 ${feature.color}`} aria-hidden="true" />
-                    </div>
-                    <h3 className="text-lg font-bold text-[hsl(var(--color-foreground))] mb-2">
-                      {t(feature.titleKey)}
-                    </h3>
-                    <p className="text-sm text-[hsl(var(--color-muted-foreground))] leading-relaxed">
-                      {t(feature.descriptionKey)}
-                    </p>
-                  </Card>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
         {/* Popular Tools Section */}
-        <section className="py-16 bg-[hsl(var(--color-muted)/0.5)]" aria-labelledby="popular-tools-heading">
+        <section className="pt-8 pb-16 bg-[hsl(var(--color-muted)/0.5)]" aria-labelledby="popular-tools-heading">
           <div className="container mx-auto px-4">
             <div className="text-center mb-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 mb-3 rounded-full bg-[hsl(var(--color-primary)/0.1)] border border-[hsl(var(--color-primary)/0.2)]">

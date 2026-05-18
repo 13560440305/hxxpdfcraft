@@ -221,10 +221,11 @@ describe('Workflow Engine', () => {
             expect(validation.errors).toHaveLength(0);
         });
 
-        it('should detect empty workflow', () => {
+        it('should treat empty workflow as not executable without surfacing errors', () => {
             const validation = validateWorkflow([], []);
             expect(validation.isValid).toBe(false);
-            expect(validation.errors[0].type).toBe('missing-input');
+            expect(validation.errors).toHaveLength(0);
+            expect(validation.warnings).toHaveLength(0);
         });
 
         it('should detect cycles', () => {

@@ -241,7 +241,7 @@ WRAPPER
 
   meta = with lib; {
     description = "PDFCraft - Professional PDF Tools, Free, Private & Browser-Based";
-    homepage = "https://github.com/PDFCraftTool/pdfcraft";
+    homepage = "https://github.com/13560440305/hxxpdfcraft";
     license = licenses.agpl3Only;
     platforms = [ "x86_64-linux" "aarch64-linux" ];
     mainProgram = "pdfcraft";

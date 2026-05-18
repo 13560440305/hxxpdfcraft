@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - 專業 PDF 工具",
+      "title": "hxxpdf - 專業 PDF 工具",
       "description": "免費、私密、基於瀏覽器。線上合併、編輯 PDF 檔案，無需上傳到伺服器。"
     },
     "tools": {
@@ -14,7 +14,7 @@
     },
     "faq": {
       "title": "常見問題",
-      "description": "查找有關 PDFCraft 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
+      "description": "查找有關 hxxpdf 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
     },
     "privacy": {
       "title": "隱私政策",
@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "hxxpdf",
     "tagline": "專業PDF工具 - 免費且私密",
     "navigation": {
       "home": "首頁",
@@ -194,16 +194,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "PDFCraft 是什麼？",
-          "answer": "PDFCraft 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
+          "question": "hxxpdf 是什麼？",
+          "answer": "hxxpdf 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
         },
         "isFree": {
-          "question": "PDFCraft 真的免費嗎？",
-          "answer": "是的，PDFCraft 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
+          "question": "hxxpdf 真的免費嗎？",
+          "answer": "是的，hxxpdf 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
         },
         "account": {
           "question": "我需要建立賬戶嗎？",
-          "answer": "不需要，您無需建立賬戶或註冊即可使用 PDFCraft。只需訪問網站即可立即開始使用任何工具。"
+          "answer": "不需要，您無需建立賬戶或註冊即可使用 hxxpdf。只需訪問網站即可立即開始使用任何工具。"
         }
       },
       "privacy": {
@@ -212,8 +212,8 @@
           "answer": "不會，您的檔案從未上傳到任何伺服器。所有 PDF 處理都使用 JavaScript 和 WebAssembly 在瀏覽器本地進行。您的檔案從未離開您的裝置。"
         },
         "safe": {
-          "question": "使用 PDFCraft 處理敏感文件安全嗎？",
-          "answer": "是的，PDFCraft 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
+          "question": "使用 hxxpdf 處理敏感文件安全嗎？",
+          "answer": "是的，hxxpdf 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
         },
         "storage": {
           "question": "處理後我的檔案會怎樣？",
@@ -223,7 +223,7 @@
       "features": {
         "operations": {
           "question": "我可以執行哪些 PDF 操作？",
-          "answer": "PDFCraft 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影象、文字、JSON）、編輯、註釋、簽名、新增水印、加密/解密、OCR 等等。"
+          "answer": "hxxpdf 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影象、文字、JSON）、編輯、註釋、簽名、新增水印、加密/解密、OCR 等等。"
         },
         "merge": {
           "question": "我可以合併多個 PDF 檔案嗎？",
@@ -231,17 +231,17 @@
         },
         "images": {
           "question": "我可以將影象轉換為 PDF 嗎？",
-          "answer": "是的，PDFCraft 支援將各種影象格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影象。"
+          "answer": "是的，hxxpdf 支援將各種影象格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影象。"
         },
         "edit": {
           "question": "我可以編輯 PDF 中的文字嗎？",
-          "answer": "PDFCraft 提供註釋和編輯工具，包括高亮、新增文字、形狀、影象和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
+          "answer": "hxxpdf 提供註釋和編輯工具，包括高亮、新增文字、形狀、影象和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
         }
       },
       "technical": {
         "browsers": {
           "question": "支援哪些瀏覽器？",
-          "answer": "PDFCraft 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
+          "answer": "hxxpdf 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
         },
         "sizeLimit": {
           "question": "有檔案大小限制嗎？",
@@ -252,14 +252,14 @@
           "answer": "由於所有處理都在瀏覽器中進行，效能取決於您裝置的能力。大檔案需要更多的記憶體和處理能力。為了獲得最佳結果，請關閉其他瀏覽器標籤頁和應用程式。"
         },
         "offline": {
-          "question": "PDFCraft 可以離線工作嗎？",
-          "answer": "目前，PDFCraft 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
+          "question": "hxxpdf 可以離線工作嗎？",
+          "answer": "目前，hxxpdf 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
         }
       },
       "languages": {
         "supported": {
           "question": "支援哪些語言？",
-          "answer": "PDFCraft 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
+          "answer": "hxxpdf 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
         },
         "change": {
           "question": "如何更改語言？",
@@ -290,7 +290,7 @@
       },
       "fast": {
         "title": "快速高效",
-        "description": "由現代 Web 技術驅動，PDFCraft 提供閃電般的 PDF 處理速度，無需上傳或下載。"
+        "description": "由現代 Web 技術驅動，hxxpdf 提供閃電般的 PDF 處理速度，無需上傳或下載。"
       },
       "accessible": {
         "title": "隨處可用",
@@ -298,7 +298,7 @@
       },
       "free": {
         "title": "永久免費",
-        "description": "PDFCraft 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
+        "description": "hxxpdf 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
       },
       "openSource": {
         "title": "開源透明",
@@ -336,7 +336,7 @@
       "email": {
         "title": "電子郵件",
         "description": "傳送電子郵件給我們，我們將在 24-48 小時內回覆。",
-        "action": "contact@pdfcraft.app"
+        "action": "fushou@hxxbot.com"
       },
       "github": {
         "title": "GitHub",
@@ -416,9 +416,9 @@
   },
   "home": {
     "hero": {
-      "title": "專業PDF工具",
-      "highlight": "專業工具",
-      "subtitle": "在瀏覽器中免費、私密、強大的PDF處理",
+      "title": "星游PDF",
+      "highlight": "專業 PDF 處理專家",
+      "subtitle": "安全、私密，免費，強大的PDF處理工具，所有處理都在瀏覽器中進行，檔案永遠不會離開您的裝置",
       "cta": "開始使用"
     },
     "features": {
@@ -1184,12 +1184,27 @@
       "pdfPreview": "PDF 預覽",
       "bookmarksTitle": "書籤",
       "addBookmark": "添加書籤",
-      "noBookmarks": "暫無書籤。點擊「添加書籤」開始建立。",
+      "noBookmarks": "暫無書籤。點擊“添加書籤”開始創建。",
       "hint": "點擊書籤可預覽對應頁面。使用 +/✎/× 進行添加子節點、編輯或刪除。",
-      "saveButton": "儲存書籤",
-      "successMessage": "書籤儲存成功！",
+      "saveButton": "保存書籤",
+      "successMessage": "書籤保存成功！",
       "sort": "排序",
-      "sortByPage": "按頁碼排序"
+      "sortByPage": "按頁碼排序",
+      "extractExisting": "抽取現有書籤",
+      "dragHint": "拖拽以重新排序書籤",
+      "extracting": "正在抽取現有書籤...",
+      "replaceConfirm": "這將替換當前書籤。是否繼續？",
+      "noBookmarksFound": "該 PDF 中未找到書籤。",
+      "failedExtract": "抽取書籤失敗。",
+      "title": "標題",
+      "page": "頁碼",
+      "color": "顏色",
+      "style": "樣式",
+      "normal": "常規",
+      "bold": "加粗",
+      "italic": "傾斜",
+      "boldItalic": "加粗並傾斜",
+      "setToCurrentPage": "設為當前頁"
     },
     "alternateMerge": {
       "uploadLabel": "上傳PDF檔案",
@@ -1336,17 +1351,6 @@
       "optionsTitle": "扁平化選項",
       "flattenForms": "扁平化表單字段",
       "flattenAnnotations": "扁平化註釋"
-    },
-    "bookmark": {
-      "uploadLabel": "上傳PDF檔案",
-      "uploadDescription": "拖放PDF檔案到此處以編輯書籤。",
-      "pdfPreview": "PDF預覽",
-      "bookmarksTitle": "書籤",
-      "addBookmark": "新增書籤",
-      "noBookmarks": "暫無書籤。點選「新增書籤」建立一個。",
-      "hint": "點選書籤預覽其頁面。使用 +/✎/× 新增子書籤、編輯或刪除。",
-      "saveButton": "儲存書籤",
-      "successMessage": "書籤儲存成功！"
     },
     "pageNumbers": {
       "uploadLabel": "上傳PDF檔案",
@@ -1624,34 +1628,6 @@
       "generate": "生成目錄",
       "success": "目錄生成成功！",
       "tocTitlePlaceholder": "輸入目錄標題..."
-    },
-    "bookmark": {
-      "uploadLabel": "上傳 PDF 文件",
-      "uploadDescription": "拖放 PDF 文件到此處以編輯書籤。",
-      "pdfPreview": "PDF 預覽",
-      "bookmarksTitle": "書籤",
-      "addBookmark": "添加書籤",
-      "noBookmarks": "暫無書籤。點擊“添加書籤”開始創建。",
-      "hint": "點擊書籤可預覽對應頁面。使用 +/✎/× 進行添加子節點、編輯或刪除。",
-      "saveButton": "保存書籤",
-      "successMessage": "書籤保存成功！",
-      "sort": "排序",
-      "sortByPage": "按頁碼排序",
-      "extractExisting": "抽取現有書籤",
-      "dragHint": "拖拽以重新排序書籤",
-      "extracting": "正在抽取現有書籤...",
-      "replaceConfirm": "這將替換當前書籤。是否繼續？",
-      "noBookmarksFound": "該 PDF 中未找到書籤。",
-      "failedExtract": "抽取書籤失敗。",
-      "title": "標題",
-      "page": "頁碼",
-      "color": "顏色",
-      "style": "樣式",
-      "normal": "常規",
-      "bold": "加粗",
-      "italic": "傾斜",
-      "boldItalic": "加粗並傾斜",
-      "setToCurrentPage": "設為當前頁"
     },
     "ocrPdf": {
       "uploadLabel": "上傳PDF檔案",

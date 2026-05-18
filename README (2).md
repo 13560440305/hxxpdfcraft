@@ -211,7 +211,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/PDFCraftTool/pdfcraft.git
+    git clone https://github.com/13560440305/hxxpdfcraft.git
     cd pdfcraft
     ```
 
@@ -269,7 +269,7 @@ If you want to build from source or need to modify the code:
 
 ```bash
 # Clone the repository
-git clone https://github.com/PDFCraftTool/pdfcraft.git
+git clone https://github.com/13560440305/hxxpdfcraft.git
 cd pdfcraft
 
 # Development mode (with hot reload)

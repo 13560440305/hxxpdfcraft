@@ -111,7 +111,7 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
 
       <main className="flex-1">
         {/* Page Header */}
-        <section className="relative pt-36 pb-20 overflow-hidden">
+        <section className="relative pt-20 pb-4 lg:pt-24 overflow-hidden">
           {/* Animated Background Blobs (Subtle) */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[hsl(var(--color-primary)/0.05)] rounded-full mix-blend-multiply filter blur-3xl opacity-50" />
@@ -120,10 +120,10 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
 
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--color-foreground))] mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--color-foreground))] mb-3">
                 <span className="text-gradient">{t('toolsPage.title')}</span>
               </h1>
-              <p className="text-lg text-[hsl(var(--color-muted-foreground))] mb-10 leading-relaxed">
+              <p className="text-lg text-[hsl(var(--color-muted-foreground))] mb-6 leading-relaxed">
                 {t('toolsPage.subtitle', { count: allTools.length })}
               </p>
 
@@ -155,10 +155,10 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
         </section>
 
         {/* Filters and Tools */}
-        <section className="py-8 bg-[hsl(var(--color-muted)/0.3)] min-h-[500px]">
+        <section className="pt-2 pb-8 bg-[hsl(var(--color-muted)/0.3)] min-h-[500px]">
           <div className="container mx-auto px-4">
             {/* Filter Bar */}
-            <div className="flex flex-col md:flex-row items-center gap-6 mb-10 sticky top-20 z-40 py-4 px-6 rounded-2xl glass-card transition-all">
+            <div className="flex flex-col md:flex-row items-center gap-6 mb-8 sticky top-20 z-40 py-4 px-6 rounded-2xl glass-card transition-all">
               {/* Mobile Filter Toggle */}
               <Button
                 variant="outline"
